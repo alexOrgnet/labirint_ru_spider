@@ -1,6 +1,7 @@
 from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
 
+
 import settings
 from spiders.labirint_ru import LabirintRuSpider
 
