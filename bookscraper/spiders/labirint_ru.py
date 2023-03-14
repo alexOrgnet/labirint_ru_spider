@@ -3,7 +3,6 @@ from scrapy.http import HtmlResponse
 
 from bookscraper.items import BookscraperItem
 
-
 class LabirintRuSpider(scrapy.Spider):
     name = "labirint_ru"
     allowed_domains = ["labirint.ru"]
